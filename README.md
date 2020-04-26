@@ -5,7 +5,7 @@
 A RecyclerView that can switch between items and placeholders.  
 This libs doesn't force a placehoder type, the developer is responsible for creating one, checkout the sample module and see how simple it is.  
 
-You can use the best beloved [Shimmer-Android](http://facebook.github.io/shimmer-android/), a [Lottie](https://airbnb.design/lottie/) animation or even the [MotionLayout](https://developer.android.com/training/constraint-layout/motionlayout). Use your imagination, it's your placeholder 😊
+You can use the best beloved [Shimmer-Android](http://facebook.github.io/shimmer-android/), a [Lottie](https://airbnb.design/lottie/) animation or even [Property Animation](https://developer.android.com/guide/topics/resources/animation-resource). Use your imagination, it's your placeholder 😊
 
 ## Getting started
 
@@ -40,7 +40,8 @@ viewModel.isLoading.observe(this, Observer { isLoading -> binding.myRecyclerView
 
 <img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/sample.gif" />  
 
-Don't recognise those chinese characters? They're from an awesome game called [Mahjong](https://en.wikipedia.org/wiki/Mahjong)
+Don't recognise those chinese characters? They're from an awesome game called [Mahjong](https://en.wikipedia.org/wiki/Mahjong)  
+Lottie animation by [puput Santoso](https://lottiefiles.com/puput_santoso)
 
     
 ## Dependencies
