@@ -30,7 +30,8 @@ viewModel.isLoading.observe(this, Observer { isLoading -> binding.myRecyclerView
 ```
 
 <img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/sample.gif" />  
-Don't recognise those chinese characteres? They're from a awesome game called [Mahjong](https://en.wikipedia.org/wiki/Mahjong)
+
+Don't recognise those chinese characteres? They're from an awesome game called [Mahjong](https://en.wikipedia.org/wiki/Mahjong)
 
     
 ## Dependencies
