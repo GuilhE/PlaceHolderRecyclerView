@@ -24,6 +24,9 @@ implementation 'com.github.guilhe:placeholder-recyclerview:${LATEST_VERSION}'
          android:layout_height="match_parent" />
 ```
 ```java
+class MyItemsPlaceHolderAdapter : ..., PlaceHolderAdapter { ...}
+...
+
 private val itemsAdapter = MyItemsAdapter()
 ...
 with(binding.myRecyclerView) {
