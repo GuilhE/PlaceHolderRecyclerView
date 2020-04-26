@@ -1,6 +1,6 @@
 # PlaceHolderRecyclerView
 
-<img src="https://raw.githubusercontent.com/Guilhe/placeholder-recyclerview/master/assets/stone.gif" /> <img src="https://raw.githubusercontent.com/Guilhe/placeholder-recyclerview/master/assets/emoji.gif" />  
+<img src="https://raw.githubusercontent.com/Guilhe/placeholder-recyclerview/blob/master/assets/stone.gif" /> <img src="https://raw.githubusercontent.com/Guilhe/placeholder-recyclerview/blob/master/assets/emoji.gif" />  
 
 A RecyclerView that can switch between items and placeholders.  
 This libs doesn't force a placehoder type, the developer is responsible for creating one, checkout the sample module and see how simple it is.  
@@ -29,7 +29,7 @@ viewModel.items.observe(this, Observer { itemsAdapter.update(it) })
 viewModel.isLoading.observe(this, Observer { isLoading -> binding.myRecyclerView.toggleHoldersAdapter(isLoading) })
 ```
 
-<img src="https://raw.githubusercontent.com/Guilhe/placeholder-recyclerview/master/assets/sample.gif" />  
+<img src="https://raw.githubusercontent.com/Guilhe/placeholder-recyclerview/blob/master/assets/sample.gif" />  
 Don't recognise those chinese characteres? They're from a awesome game called [Mahjong](https://en.wikipedia.org/wiki/Mahjong)
 
     
