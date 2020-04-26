@@ -1,0 +1,3 @@
+rootProject.name='android-placeholder-recyclerview'
+include ':placeholder-recyclerview'
+include ':sample'

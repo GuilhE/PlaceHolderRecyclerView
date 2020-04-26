@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:shimmer_auto_start="true"
+        app:shimmer_base_alpha=".2"
+        app:shimmer_highlight_alpha=".4">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="@dimen/card_width"
+            android:layout_height="@dimen/card_height"
+            app:cardCornerRadius="5dp"  />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</layout>

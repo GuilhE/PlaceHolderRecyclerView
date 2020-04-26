@@ -1,0 +1,8 @@
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/brick</item>
+        <item name="colorSurface">@color/ivory</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+    </style>
+</resources>
