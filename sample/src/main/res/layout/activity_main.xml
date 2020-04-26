@@ -14,15 +14,25 @@
             android:layout_height="0dp"
             android:padding="10dp"
             android:clipToPadding="false"
-            app:layout_constraintBottom_toTopOf="@+id/emoji_PlaceHolderRecyclerView"
+            app:layout_constraintBottom_toTopOf="@+id/lottie_PlaceHolderRecyclerView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <com.github.guilhe.view.PlaceHolderRecyclerView
+            android:id="@+id/lottie_PlaceHolderRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toTopOf="@+id/emoji_PlaceHolderRecyclerView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.github.guilhe.view.PlaceHolderRecyclerView
             android:id="@+id/emoji_PlaceHolderRecyclerView"
             android:layout_width="0dp"
-            android:layout_height="134dp"
+            android:layout_height="110dp"
             android:orientation="horizontal"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintBottom_toTopOf="@+id/load_MaterialButton"

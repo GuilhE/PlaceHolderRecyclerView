@@ -26,7 +26,7 @@ class EmojiAdapter(private val default: Item) : BaseAdapter<Item, EmojiItemBindi
         ItemViewHolder(EmojiItemBinding.inflate(LayoutInflater.from(parent.context), parent, false))
 
     override fun onBindViewHolder(holder: BaseViewHolder<EmojiItemBinding>, position: Int) {
-        getItem(holder.adapterPosition)?.let {
+        getItem(position)?.let {
             holder.binding.item = it
             holder.binding.root.setOnClickListener { _ ->
                 it.changeStatus()

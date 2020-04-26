@@ -10,8 +10,10 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.transition.TransitionManager
 import com.github.guilhe.sample.adapters.EmojiAdapter
 import com.github.guilhe.sample.adapters.Item
+import com.github.guilhe.sample.adapters.LottieAdapter
 import com.github.guilhe.sample.adapters.MahjongItemAdapter
 import com.github.guilhe.sample.adapters.decorators.MarginItemDecoration
+import com.github.guilhe.sample.adapters.placeholders.LottiePlaceHolderAdapter
 import com.github.guilhe.sample.adapters.placeholders.RotationPlaceHolderAdapter
 import com.github.guilhe.sample.adapters.placeholders.ShimmerPlaceHolderAdapter
 import com.github.guilhe.view.sample.R
@@ -34,6 +36,12 @@ class MainActivity : AppCompatActivity() {
             holdersAdapter = ShimmerPlaceHolderAdapter()
             layoutManager = GridLayoutManager(context, 4)
             addItemDecoration(MarginItemDecoration(10.dpToPx()))
+        }
+
+        with(binding.lottiePlaceHolderRecyclerView) {
+            adapter = LottieAdapter()
+            holdersAdapter = LottiePlaceHolderAdapter()
+            addItemDecoration(MarginItemDecoration(15.dpToPx()))
         }
 
         with(binding.emojiPlaceHolderRecyclerView) {
@@ -63,6 +71,7 @@ class MainActivity : AppCompatActivity() {
                 TransitionManager.beginDelayedTransition(binding.root as ViewGroup)
             }
             binding.mahjongPlaceHolderRecyclerView.toggleHoldersAdapter(show)
+            binding.lottiePlaceHolderRecyclerView.toggleHoldersAdapter(show)
             with(binding.emojiPlaceHolderRecyclerView) {
                 toggleHoldersAdapter(show)
                 if (!(isHoldersAdapterVisible() || show)) {
