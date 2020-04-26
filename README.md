@@ -1,6 +1,6 @@
 # PlaceHolderRecyclerView
 
-<img src="https://raw.githubusercontent.com/Guilhe/placeholder-recyclerview/master/assets/stone.gif" /> <img src="https://raw.githubusercontent.com/Guilhe/placeholder-recyclerview/master/assets/emoji.gif" />  
+<img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/stone.gif" /> <img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/emoji.gif" />  
 
 A RecyclerView that can switch between items and placeholders.  
 This libs doesn't force a placehoder type, the developer is responsible for creating one, checkout the sample module and see how simple it is.  
@@ -17,7 +17,16 @@ implementation 'com.github.guilhe:placeholder-recyclerview:${LATEST_VERSION}'
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.guilhe/placeholder-recyclerview.svg)](https://search.maven.org/search?q=g:com.github.guilhe%20AND%20placeholder-recyclerview) [![Download](https://api.bintray.com/packages/gdelgado/android/PlaceHolderRecyclerView/images/download.svg)](https://bintray.com/gdelgado/android/PlaceHolderRecyclerView/_latestVersion)
 
 ## Sample usage
+```xml
+ <com.github.guilhe.view.PlaceHolderRecyclerView
+         android:id="@+id/my_RecyclerView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" />
+```
 ```java
+class MyItemsPlaceHolderAdapter : ..., PlaceHolderAdapter { ...}
+...
+
 private val itemsAdapter = MyItemsAdapter()
 ...
 with(binding.myRecyclerView) {
@@ -29,8 +38,9 @@ viewModel.items.observe(this, Observer { itemsAdapter.update(it) })
 viewModel.isLoading.observe(this, Observer { isLoading -> binding.myRecyclerView.toggleHoldersAdapter(isLoading) })
 ```
 
-<img src="https://raw.githubusercontent.com/Guilhe/placeholder-recyclerview/master/assets/sample.gif" />  
-Don't recognise those chinese characteres? They're from a awesome game called [Mahjong](https://en.wikipedia.org/wiki/Mahjong)
+<img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/sample.gif" />  
+
+Don't recognise those chinese characters? They're from an awesome game called [Mahjong](https://en.wikipedia.org/wiki/Mahjong)
 
     
 ## Dependencies
