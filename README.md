@@ -17,6 +17,12 @@ implementation 'com.github.guilhe:placeholder-recyclerview:${LATEST_VERSION}'
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.guilhe/placeholder-recyclerview.svg)](https://search.maven.org/search?q=g:com.github.guilhe%20AND%20placeholder-recyclerview) [![Download](https://api.bintray.com/packages/gdelgado/android/PlaceHolderRecyclerView/images/download.svg)](https://bintray.com/gdelgado/android/PlaceHolderRecyclerView/_latestVersion)
 
 ## Sample usage
+```xml
+ <com.github.guilhe.view.PlaceHolderRecyclerView
+         android:id="@+id/my_RecyclerView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" />
+```
 ```java
 private val itemsAdapter = MyItemsAdapter()
 ...
