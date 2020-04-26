@@ -1,6 +1,6 @@
 # PlaceHolderRecyclerView
 
-<img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/stone.gif" /> <img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/emoji.gif" />  
+<img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/stone.gif" /> <img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/lottie.gif" /> <img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/emoji.gif" />  
 
 A RecyclerView that can switch between items and placeholders.  
 This libs doesn't force a placehoder type, the developer is responsible for creating one, checkout the sample module and see how simple it is.  
