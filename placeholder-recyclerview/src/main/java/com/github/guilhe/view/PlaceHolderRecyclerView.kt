@@ -21,7 +21,10 @@ class PlaceHolderRecyclerView @JvmOverloads constructor(
 
     fun toggleHoldersAdapter(show: Boolean) {
         if (::holdersAdapter.isInitialized) {
-            adapter = if (show) holdersAdapter as Adapter<ViewHolder> else itemAdapter
+            val temp = if (show) holdersAdapter as Adapter<ViewHolder> else itemAdapter
+            if (temp != adapter) {
+                adapter = temp
+            }
         }
     }
 
