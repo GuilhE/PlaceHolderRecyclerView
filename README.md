@@ -7,16 +7,17 @@ This libs doesn't force a placehoder type, the developer is responsible for crea
 
 You can use the best beloved [Shimmer-Android](http://facebook.github.io/shimmer-android/), a [Lottie](https://airbnb.design/lottie/) animation or even [Property Animation](https://developer.android.com/guide/topics/resources/animation-resource). Use your imagination, it's your placeholder 😊
 
-## Getting started
+# Installation
 
-The first step is to include PlaceHolderRecyclerView into your project, for example, as a Gradle compile dependency:
+ResourcesProvider-ktx is distributed through [Maven Central](https://search.maven.org/artifact/com.github.guilhe/placeholder-recyclerview), [Jcenter](https://bintray.com/gdelgado/android/PlaceHolderRecyclerView) and [Jitpack](https://jitpack.io/#GuilhE/PlaceHolderRecyclerView).
 
 ```groovy
 implementation 'com.github.guilhe:placeholder-recyclerview:${LATEST_VERSION}'
 ```
-[![Maven Central](https://img.shields.io/maven-central/v/com.github.guilhe/placeholder-recyclerview.svg)](https://search.maven.org/search?q=g:com.github.guilhe%20AND%20placeholder-recyclerview) [![Download](https://api.bintray.com/packages/gdelgado/android/PlaceHolderRecyclerView/images/download.svg)](https://bintray.com/gdelgado/android/PlaceHolderRecyclerView/_latestVersion)
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.guilhe/placeholder-recyclerview.svg)](https://search.maven.org/search?q=g:com.github.guilhe%20AND%20placeholder-recyclerview) [![Download](https://api.bintray.com/packages/gdelgado/android/PlaceHolderRecyclerView/images/download.svg)](https://bintray.com/gdelgado/android/PlaceHolderRecyclerView/_latestVersion) ![Bintray](https://img.shields.io/bintray/dt/gdelgado/android/PlaceHolderRecyclerView)
 
-## Sample usage
+## Usage
+
 ```xml
  <com.github.guilhe.view.PlaceHolderRecyclerView
          android:id="@+id/my_RecyclerView"
@@ -50,10 +51,6 @@ Lottie animation by [puput Santoso](https://lottiefiles.com/puput_santoso)
 ## Bugs and Feedback
 
 For bugs, questions and discussions please use the [Github Issues](https://github.com/GuilhE/PlaceHolderRecyclerView/issues).
-
-## Binaries
-Additional binaries and dependency information for can be found [here](https://search.maven.org/artifact/com.github.guilhe/placeholder-recyclerview).  
-<a href='https://bintray.com/gdelgado/android/PlaceHolderRecyclerView?source=watch' alt='Get automatic notifications about new "PlaceHolderRecyclerView" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_bw.png'></a>
 
 ## LICENSE
 
