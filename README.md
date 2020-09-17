@@ -1,6 +1,6 @@
 # PlaceHolderRecyclerView
 
-<img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/stone.gif" /> <img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/lottie.gif" /> <img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/emoji.gif" />  
+<img src="media/stone.gif" /> <img src="media/lottie.gif" /> <img src="media/emoji.gif" />  
 
 A RecyclerView that can switch between items and placeholders.  
 This libs doesn't force a placehoder type, the developer is responsible for creating one, checkout the sample module and see how simple it is.  
@@ -9,7 +9,7 @@ You can use the best beloved [Shimmer-Android](http://facebook.github.io/shimmer
 
 # Installation
 
-ResourcesProvider-ktx is distributed through [Maven Central](https://search.maven.org/artifact/com.github.guilhe/placeholder-recyclerview), [Jcenter](https://bintray.com/gdelgado/android/PlaceHolderRecyclerView) and [Jitpack](https://jitpack.io/#GuilhE/PlaceHolderRecyclerView).
+PlaceHolderRecyclerView is distributed through [Maven Central](https://search.maven.org/artifact/com.github.guilhe/placeholder-recyclerview), [Jcenter](https://bintray.com/gdelgado/android/PlaceHolderRecyclerView) and [Jitpack](https://jitpack.io/#GuilhE/PlaceHolderRecyclerView).
 
 ```groovy
 implementation 'com.github.guilhe:placeholder-recyclerview:${LATEST_VERSION}'
@@ -39,7 +39,7 @@ viewModel.items.observe(this, Observer { itemsAdapter.update(it) })
 viewModel.isLoading.observe(this, Observer { isLoading -> binding.myRecyclerView.toggleHoldersAdapter(isLoading) })
 ```
 
-<img src="https://raw.githubusercontent.com/Guilhe/PlaceHolderRecyclerView/master/assets/sample.gif" />  
+<img src="media/sample.gif" />  
 
 Don't recognise those chinese characters? They're from an awesome game called [Mahjong](https://en.wikipedia.org/wiki/Mahjong)  
 Lottie animation by [puput Santoso](https://lottiefiles.com/puput_santoso)

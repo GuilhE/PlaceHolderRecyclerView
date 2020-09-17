@@ -15,9 +15,7 @@ android {
         versionName "1.0.0"
     }
 
-    dataBinding {
-        enabled = true
-    }
+    android.buildFeatures.dataBinding = true
 
     buildTypes {
         release {
@@ -36,11 +34,11 @@ android {
 dependencies {
     implementation project(':placeholder-recyclerview')
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.google.android.material:material:1.1.0'
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha01'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.0"
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.0-alpha07'
 
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
     implementation 'com.airbnb.android:lottie:3.4.0'

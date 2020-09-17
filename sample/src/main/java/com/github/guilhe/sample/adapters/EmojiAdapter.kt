@@ -2,7 +2,7 @@ package com.github.guilhe.sample.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.github.guilhe.view.sample.databinding.EmojiItemBinding
+import com.github.guilhe.views.sample.databinding.EmojiItemBinding
 
 class EmojiAdapter(private val default: Item) : BaseAdapter<Item, EmojiItemBinding>() {
 

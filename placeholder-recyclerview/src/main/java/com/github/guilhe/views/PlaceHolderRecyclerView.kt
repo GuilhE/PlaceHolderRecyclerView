@@ -1,4 +1,4 @@
-package com.github.guilhe.view
+package com.github.guilhe.views
 
 import android.content.Context
 import android.util.AttributeSet

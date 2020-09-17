@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         android:background="?attr/colorPrimaryDark">
 
-        <com.github.guilhe.view.PlaceHolderRecyclerView
+        <com.github.guilhe.views.PlaceHolderRecyclerView
             android:id="@+id/mahjong_PlaceHolderRecyclerView"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -19,7 +19,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.github.guilhe.view.PlaceHolderRecyclerView
+        <com.github.guilhe.views.PlaceHolderRecyclerView
             android:id="@+id/lottie_PlaceHolderRecyclerView"
             android:layout_width="0dp"
             android:layout_height="100dp"
@@ -29,7 +29,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <com.github.guilhe.view.PlaceHolderRecyclerView
+        <com.github.guilhe.views.PlaceHolderRecyclerView
             android:id="@+id/emoji_PlaceHolderRecyclerView"
             android:layout_width="0dp"
             android:layout_height="110dp"

@@ -2,12 +2,11 @@ package com.github.guilhe.sample.adapters.placeholders
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.view.animation.AnimationUtils
 import com.github.guilhe.sample.adapters.BaseAdapter
 import com.github.guilhe.sample.adapters.BaseViewHolder
-import com.github.guilhe.view.PlaceHolderAdapter
-import com.github.guilhe.view.sample.R
-import com.github.guilhe.view.sample.databinding.PlaceholderRotationBinding
+import com.github.guilhe.views.PlaceHolderAdapter
+import com.github.guilhe.views.sample.R
+import com.github.guilhe.views.sample.databinding.PlaceholderRotationBinding
 
 class RotationPlaceHolderAdapter : BaseAdapter<Int, PlaceholderRotationBinding>(), PlaceHolderAdapter {
 

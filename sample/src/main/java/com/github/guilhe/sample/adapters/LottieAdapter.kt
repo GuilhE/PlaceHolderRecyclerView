@@ -2,7 +2,7 @@ package com.github.guilhe.sample.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.github.guilhe.view.sample.databinding.LottieItemBinding
+import com.github.guilhe.views.sample.databinding.LottieItemBinding
 
 class LottieAdapter() : BaseAdapter<String, LottieItemBinding>() {
 

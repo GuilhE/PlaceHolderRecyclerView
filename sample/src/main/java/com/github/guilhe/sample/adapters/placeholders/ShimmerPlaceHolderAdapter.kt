@@ -4,8 +4,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.github.guilhe.sample.adapters.BaseAdapter
 import com.github.guilhe.sample.adapters.BaseViewHolder
-import com.github.guilhe.view.PlaceHolderAdapter
-import com.github.guilhe.view.sample.databinding.PlaceholderShimmerBinding
+import com.github.guilhe.views.PlaceHolderAdapter
+import com.github.guilhe.views.sample.databinding.PlaceholderShimmerBinding
 
 class ShimmerPlaceHolderAdapter : BaseAdapter<Int, PlaceholderShimmerBinding>(), PlaceHolderAdapter {
 
