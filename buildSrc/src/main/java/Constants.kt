@@ -13,7 +13,7 @@ object Versions {
     const val kotlin_gradle_plugin_version = "1.4.0"
     const val bintray_plugin_version = "1.8.5"
 
-    const val bintray = "1.8.5"
+    const val bintray_version = "1.8.5"
     const val dokka_version = "1.4.0"
 
     const val kotlin_stdlib_version = "1.4.0"
@@ -41,4 +41,4 @@ val PluginDependenciesSpec.dokka: PluginDependencySpec
     inline get() = id(Libs.org_jetbrains_dokka).version(Versions.dokka_version)
 
 val PluginDependenciesSpec.bintray: PluginDependencySpec
-    inline get() = id(Libs.com_jfrog_bintray).version(Versions.bintray)
+    inline get() = id(Libs.com_jfrog_bintray).version(Versions.bintray_version)
