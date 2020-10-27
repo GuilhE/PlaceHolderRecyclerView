@@ -19,14 +19,13 @@ implementation 'com.github.guilhe:placeholder-recyclerview:${LATEST_VERSION}'
 ## Usage
 
 ```xml
- <com.github.guilhe.view.PlaceHolderRecyclerView
+ <com.github.guilhe.views.PlaceHolderRecyclerView
          android:id="@+id/my_RecyclerView"
          android:layout_width="match_parent"
          android:layout_height="match_parent" />
 ```
 ```java
-class MyItemsPlaceHolderAdapter : ..., PlaceHolderAdapter { ...}
-...
+class MyItemsPlaceHolderAdapter : ..., PlaceHolderAdapter { ... }
 
 private val itemsAdapter = MyItemsAdapter()
 ...
@@ -35,8 +34,8 @@ with(binding.myRecyclerView) {
     holdersAdapter = MyItemsPlaceHolderAdapter()
 }
 ...
-viewModel.items.observe(this, Observer { itemsAdapter.update(it) })
-viewModel.isLoading.observe(this, Observer { isLoading -> binding.myRecyclerView.toggleHoldersAdapter(isLoading) })
+viewModel.items.observe(this, { itemsAdapter.update(it) })
+viewModel.isLoading.observe(this, { isLoading -> binding.myRecyclerView.toggleHoldersAdapter(isLoading) })
 ```
 
 <img src="media/sample.gif" />  
