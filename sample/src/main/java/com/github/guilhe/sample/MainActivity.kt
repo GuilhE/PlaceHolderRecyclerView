@@ -77,6 +77,4 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-fun Int.dpToPx(): Int {
-    return ceil((this * Resources.getSystem().displayMetrics.density).toDouble()).toInt()
-}
+fun Int.dpToPx(): Int = ceil((this * Resources.getSystem().displayMetrics.density).toDouble()).toInt()

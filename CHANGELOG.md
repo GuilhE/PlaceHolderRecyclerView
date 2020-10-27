@@ -1,4 +1,9 @@
 # Changelog
+
+## [1.1.0]
+
+Added `var holdersItemDecoration` to configure placeholders item decoration when needed.
+
 ---
 
 ## [1.0.1]

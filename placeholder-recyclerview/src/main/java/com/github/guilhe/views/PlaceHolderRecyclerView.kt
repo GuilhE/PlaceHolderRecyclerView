@@ -11,6 +11,7 @@ class PlaceHolderRecyclerView @JvmOverloads constructor(
 
     private lateinit var itemAdapter: Adapter<ViewHolder>
     lateinit var holdersAdapter: PlaceHolderAdapter
+    var holdersItemDecoration: ItemDecoration? = null
 
     override fun setAdapter(adapter: Adapter<*>?) {
         super.setAdapter(adapter)
@@ -21,6 +22,7 @@ class PlaceHolderRecyclerView @JvmOverloads constructor(
 
     fun toggleHoldersAdapter(show: Boolean) {
         if (::holdersAdapter.isInitialized) {
+            holdersItemDecoration?.let { if (show) addItemDecoration(it) else removeItemDecoration(it) }
             val temp = if (show) holdersAdapter as Adapter<ViewHolder> else itemAdapter
             if (temp != adapter) {
                 adapter = temp

@@ -16,7 +16,7 @@ object Versions {
     const val bintray_version = "1.8.5"
     const val dokka_version = "1.4.0"
 
-    const val kotlin_stdlib_version = "1.4.0"
+    const val kotlin_stdlib_version = "1.4.10"
     const val recyclerview_version = "1.1.0"
 }
 
