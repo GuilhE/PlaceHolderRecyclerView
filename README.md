@@ -19,12 +19,12 @@ implementation 'com.github.guilhe:placeholder-recyclerview:${LATEST_VERSION}'
 ## Usage
 
 ```xml
- <com.github.guilhe.views.PlaceHolderRecyclerView
-         android:id="@+id/my_RecyclerView"
-         android:layout_width="match_parent"
-         android:layout_height="match_parent" />
+<com.github.guilhe.views.PlaceHolderRecyclerView
+        android:id="@+id/my_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 ```
-```java
+```kotlin
 class MyItemsPlaceHolderAdapter : ..., PlaceHolderAdapter { ... }
 
 private val itemsAdapter = MyItemsAdapter()
