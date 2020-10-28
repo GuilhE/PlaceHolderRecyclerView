@@ -32,6 +32,7 @@ private val itemsAdapter = MyItemsAdapter()
 with(binding.myRecyclerView) {
     adapter = itemsAdapter
     holdersAdapter = MyItemsPlaceHolderAdapter()
+    holdersItemDecoration = MyItemsDecoration() //if needed
 }
 ...
 viewModel.items.observe(this, { itemsAdapter.update(it) })
