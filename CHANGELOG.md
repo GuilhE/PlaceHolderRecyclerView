@@ -3,7 +3,7 @@
 ## [1.1.0]
 
 - Added `var holdersItemDecoration` to configure placeholders item decoration when needed.
-- Renamed package from _...__view__.PlaceHolderRecyclerView_ to _...__views__.PlaceHolderRecyclerView_
+- Renamed package from ...__view__.PlaceHolderRecyclerView to ...__views__.PlaceHolderRecyclerView
 
 ---
 
