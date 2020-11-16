@@ -1,5 +1,6 @@
 # PlaceHolderRecyclerView
-
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-PlaceHolderRecyclerView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/8193)
+    
 <img src="media/stone.gif" /> <img src="media/lottie.gif" /> <img src="media/emoji.gif" />  
 
 A RecyclerView that can switch between items and placeholders.  
