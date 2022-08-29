@@ -10,12 +10,12 @@ You can use the best beloved [Shimmer-Android](http://facebook.github.io/shimmer
 
 # Installation
 
-PlaceHolderRecyclerView is distributed through [Maven Central](https://search.maven.org/artifact/com.github.guilhe/placeholder-recyclerview), [Jcenter](https://bintray.com/gdelgado/android/PlaceHolderRecyclerView) and [Jitpack](https://jitpack.io/#GuilhE/PlaceHolderRecyclerView).
+PlaceHolderRecyclerView is distributed through [Maven Central](https://search.maven.org/artifact/com.github.guilhe/placeholder-recyclerview) and [Jitpack](https://jitpack.io/#GuilhE/PlaceHolderRecyclerView).
 
 ```groovy
 implementation 'com.github.guilhe:placeholder-recyclerview:${LATEST_VERSION}'
 ```
-[![Maven Central](https://img.shields.io/maven-central/v/com.github.guilhe/placeholder-recyclerview.svg)](https://search.maven.org/search?q=g:com.github.guilhe%20AND%20placeholder-recyclerview) [![Download](https://api.bintray.com/packages/gdelgado/android/PlaceHolderRecyclerView/images/download.svg)](https://bintray.com/gdelgado/android/PlaceHolderRecyclerView/_latestVersion) ![Bintray](https://img.shields.io/bintray/dt/gdelgado/android/PlaceHolderRecyclerView)
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.guilhe/placeholder-recyclerview.svg)](https://search.maven.org/search?q=g:com.github.guilhe%20AND%20placeholder-recyclerview)
 
 ## Usage
 
